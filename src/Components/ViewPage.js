@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import img1 from "./Images/profile1.jpg"
+
 import img2 from "./Images/profile2.jpg"
 import img3 from "./Images/profile3.jpg"
-import img4 from "./Images/profile4.jpg"
-import img5 from "./Images/profile5.jpg"
+
+import  imag1  from "./Images/posts/img1.heic";
 import "./Profile.css"
 import './ViewPage.css'
 
@@ -60,9 +60,9 @@ const handle3=()=>{
                           <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                                <button type="button" class="btn btn-danger  border border-light mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                               </div>
-                              <img src={img1} alt=""className=''/>
+                              <img src={imag1} alt=""className=''/>
                               
                             </div>
                           </div>
@@ -72,9 +72,9 @@ const handle3=()=>{
                           <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                                <button type="button" class="btn btn-danger  border border-light mb-2  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                               </div>
-                              <img src={img3} alt=""className=''/>
+                              <img src={img3} alt=""className='w-100'/>
                               
                             </div>
                           </div>
@@ -84,9 +84,9 @@ const handle3=()=>{
                           <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                                <button type="button" class="btn btn-danger  border border-light  mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                               </div>
-                              <img src={img2} alt=""className=''/>
+                              <img src={img2} alt=""className='w-100'/>
                               
                             </div>
                           </div>
@@ -99,9 +99,12 @@ const handle3=()=>{
                               <div class="modal-body ">
 
                               <div class="row ">
+                              <div className="d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger  border border-light mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                              </div>
                              
                               <div class="left col-lg-6 ms-auto d-none d-lg-block">
-                                <img src={img1} alt=""className='w-100 h-100'/>
+                                <img src={imag1} alt=""className='w-100 h-100'/>
                               </div>
                               <div class="right col-lg-5 col-sm-12 ms-auto d-flex flex-column justify-content-between ">
 
@@ -111,7 +114,7 @@ const handle3=()=>{
                                 <div className="col-sm-12 d-flex justify-content-between align-items-center ">
                               
                                 <div className="left d-flex justify-content-evenly align-items-center">
-                                  <img src={img1} alt="" className='commentPageProfile rounded-circle p-1  ms-2'/>
+                                  <img src={imag1} alt="" className='commentPageProfile rounded-circle p-1  ms-2'/>
                                   <div className="">
                                     <p className='text text-dark '>{user.name}</p>
                                     <p className='text text-dark '></p>
@@ -131,7 +134,7 @@ const handle3=()=>{
                                 <div className="col-sm-12 d-flex justify-content-between align-items-center ">
                               
                                 <div className="left d-flex justify-content-evenly align-items-center">
-                                  <img src={img1} alt="" className='commentPageProfile rounded-circle p-1  ms-2'/>
+                                  <img src={imag1} alt="" className='commentPageProfile rounded-circle p-1  ms-2'/>
                                   <div className="">
                                     <p className='text text-dark '>{user.name}</p>
                                     <p className='text text-dark '></p>
@@ -158,7 +161,7 @@ const handle3=()=>{
 
                                        
                                                     <ul class="dropdown-menu ">
-                                                        <li><button className='btn btn-light text-dark border-0 w-100  ' onClick={()=>props.handleDelete1(index)}>Delete</button></li>
+                                                        <li><button className='btn btn-info text-dark border-0 w-100  ' onClick={()=>props.handleDelete1(index)}>Delete</button></li>
                                                     
                                                     </ul>
                                                 </div>
@@ -221,6 +224,9 @@ const handle3=()=>{
                               <div class="modal-body ">
 
                               <div class="row ">
+                              <div className="d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger  border border-light mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                              </div>
                              
                               <div class="left col-lg-6 ms-auto d-none d-lg-block">
                                 <img src={img3} alt=""className='w-100 h-100'/>
@@ -280,7 +286,7 @@ const handle3=()=>{
 
                                        
                                                     <ul class="dropdown-menu ">
-                                                        <li><button className='btn btn-light text-dark border-0 w-100' onClick={()=>props.handleDelete2(index)}>Delete</button></li>
+                                                        <li><button className='btn btn-info text-dark border-0 w-100' onClick={()=>props.handleDelete2(index)}>Delete</button></li>
                                                     
                                                     </ul>
                                                 </div>
@@ -345,6 +351,9 @@ const handle3=()=>{
                               <div class="modal-body ">
 
                               <div class="row ">
+                              <div className="d-flex justify-content-end">
+                                <button type="button" class="btn btn-danger  border border-light mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                              </div>
                              
                               <div class="left col-lg-6 ms-auto d-none d-lg-block">
                                 <img src={img2} alt=""className='w-100 h-100'/>
@@ -404,7 +413,7 @@ const handle3=()=>{
 
                                        
                                                     <ul class="dropdown-menu ">
-                                                        <li><button className='btn btn-light text-dark border-0 w-100' onClick={()=>props.handleDelete3(index)}>Delete</button></li>
+                                                        <li><button className='btn btn-info text-dark border-0 w-100' onClick={()=>props.handleDelete3(index)}>Delete</button></li>
                                                     
                                                     </ul>
                                                 </div>
@@ -474,7 +483,7 @@ const handle3=()=>{
                                 <h3>{user.id}</h3>
                                 
                             
-                                <img src={img1} alt=""  className='w-25 h-25'/>
+                                <img src={imag1} alt=""  className='w-25 h-25'/>
                                 
                                 
                               

@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react'
 import logo from './Images/logo.png'
-import logo1 from './Images/logo11.png'
+
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import img1 from "./Images/profile1.jpg"
+
 import  imag1  from "./Images/posts/img1.heic";
 import  imag2  from "./Images/posts/img2.heic";
 import  imag3  from "./Images/posts/img3.heic";
@@ -48,9 +48,7 @@ const ProfilePage = () => {
                 setUser(previousState => {
                   return { ...previousState, age: profileAge}
                 });
-                setUser(previousState => {
-                  return { ...previousState, dob: profileDOb }
-                });
+                
              
          
                   
@@ -443,8 +441,8 @@ const ProfilePage = () => {
      <div class="modal  " id="exampleModal1" >
                        <div class="modal-dialog modal-dialog-centered">
                          <div class="modal-content">
-                            <div className="row d-flex justify-content-end bg-transparent ">
-                            <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class=" btn btn-danger  border border-0 mb-2 w-25 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
                            <img src={imag1} alt=""className=''/>
                            
@@ -454,8 +452,8 @@ const ProfilePage = () => {
                      <div class="modal  " id="exampleModal2" >
                        <div class="modal-dialog  modal-dialog-centered ">
                          <div class="modal-content">
-                            <div className="row d-flex justify-content-end bg-transparent ">
-                            <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class=" btn btn-danger  border border-0 mb-2 w-25 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
                            <img src={imag2} alt=""className=''/>
                            
@@ -466,8 +464,8 @@ const ProfilePage = () => {
                      <div class="modal  " id="exampleModal3" >
                        <div class="modal-dialog  modal-dialog-centered">
                          <div class="modal-content">
-                            <div className="row d-flex justify-content-end bg-transparent ">
-                            <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2  w-25 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
                            <img src={imag3} alt=""className=''/>
                            
@@ -477,8 +475,8 @@ const ProfilePage = () => {
                      <div class="modal  " id="exampleModal4" >
                        <div class="modal-dialog modal-dialog-centered">
                          <div class="modal-content">
-                            <div className="row d-flex justify-content-end bg-transparent ">
-                            <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2w-25 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
                            <img src={imag4} alt=""className=''/>
                            
@@ -488,33 +486,31 @@ const ProfilePage = () => {
                      <div class="modal  " id="exampleModal5" >
                        <div class="modal-dialog modal-dialog-centered">
                          <div class="modal-content">
-                            <div className="row d-flex justify-content-end bg-transparent ">
-                            <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2 w-25" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
                            <img src={imag5} alt=""className=''/>
                            
                          </div>
                        </div>
                      </div>
-                     <div class="modal " id="exampleModal6" >
-                       <div class="modal-dialog  modal-dialog-centered ">
-                       <div className="row d-flex justify-content-end bg-transparent ">
-                           <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                     <div class="modal  " id="exampleModal6" >
+                       <div class="modal-dialog modal-dialog-centered">
+                         <div class="modal-content">
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2 w-25" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
-                         <div class="modal-content ">
-                            
                            <img src={imag6} alt=""className=''/>
                            
                          </div>
                        </div>
                      </div>
-                     <div class="modal " id="exampleModal7" >
-                       <div class="modal-dialog  modal-dialog-centered ">
-                       <div className="row d-flex justify-content-end bg-transparent ">
-                       <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                     <div class="modal  " id="exampleModal7" >
+                       <div class="modal-dialog modal-dialog-centered">
+                         <div class="modal-content">
+                            <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2 w-25" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                              </div>
-                         <div class="modal-content ">
-                            
                            <img src={imag7} alt=""className=''/>
                            
                          </div>
@@ -573,12 +569,7 @@ const ProfilePage = () => {
 
                                                 
                                                 </div>
-                                                <div className="">
-                                                <label className="form-label">Date of Birth</label>
-                                                <input type="date" className="form-control" onChange= {(e)=> setProfileDob(e.target.value)} />
-
                                                 
-                                                </div>
                                                 <div className="d-flex justify-content-center align-items center">
                                                   <button className="btn btn-info w-50" onClick={updateProfile}>Update</button>
                                                    
@@ -601,8 +592,11 @@ const ProfilePage = () => {
                        <div class="modal fade" id="editProfileImage" >
                              <div className="modal-dialog modal-dialog-centered modal-lg mt-1 ">
                                <div className="modal-content d-flex justify-content-center flex-column ">
-                               <button type="button" class=" btn btn-danger w-25 border border-light  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-1"></i></button>
+                               <div className="row d-flex justify-content-end bg-transparent align-items-center">
+                            <button type="button" class="btn btn-danger  border border-0 mb-2 w-25" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                             </div>
                                  <img src={changeImage} alt="" />
+                                 
 
 
                                </div>

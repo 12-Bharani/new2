@@ -3,7 +3,7 @@
     height: 50px;
 }
 .modal-body .row .col-lg-6,.col-lg-5{
-    height: 700px!important;
+    height: 500px!important;
 }
 
 @keyframes slideRight {

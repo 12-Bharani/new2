@@ -19,8 +19,9 @@ import Home from "./Components/Home"
 
 
 import FormLogin from './Components/FormLogin';
-import FormSignup from './Components/FormSignup';
+
 import ProfilePage from './Components/ProfilePage';
+
 
 
 const App = () => {
@@ -56,10 +57,8 @@ const App = () => {
                     path='/FormLogin'
                     element={<FormLogin />}
                 />
-                <Route
-                    path='/FormSignup'
-                    element={<FormSignup/>}
-                />
+               
+               
               
                 
                 

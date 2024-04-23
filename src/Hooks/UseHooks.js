@@ -50,6 +50,59 @@ const [friend2, setFriend2] = useState({
 })
 
 
+const [value, setValue] = useState(
+  {
+      username:"",
+       email:"",
+       password:"",
+       cpassword:""
+  }
+)
+
+const [errors, setErrors] = useState({})
+const handleChange=(e)=>{
+ const{name,value}=e.target;
+ setValue((prevValues)=>{
+  return{
+      ...prevValues,[name]:value
+  }
+ })
+  
+}
+const handleSubmit1 =(event)=>{
+  event.preventDefault();
+  setErrors(validateLogin(value))
+  
+}
+
+const validateLogin=(value)=>{
+  let errors={};
+  
+  if(!value.email.trim()){
+      errors.email="Email required"
+  }
+  else if(!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(value.email)){
+      errors.email="Email address is invalid"
+  }
+
+  if(!value.password.trim()){
+      errors.password="password required"
+  }
+  else if(value.password.length < 6){
+      errors.password="Password need to be 6 character or more"
+
+
+  }
+ 
+  else{
+    navigate('/Home')
+  }
+
+  return errors
+
+}
+
+
 
 
 
@@ -63,14 +116,14 @@ const [friend2, setFriend2] = useState({
     navigate('/Home')
   }
   const handleSubmit=()=>{
+
     navigate('/Home')
   }
-  const login=()=>{
-    navigate('/FormLogin')
-  }
-  const signUp=()=>{
+  const signup=()=>{
     navigate('/FormSignup')
   }
+ 
+
 
 
 
@@ -97,7 +150,7 @@ const [friend2, setFriend2] = useState({
 
 
   return{
-    profile,user,friend1,friend2,home,handleSubmit,login,signUp,showDate,showTime,setUser
+    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,signup,value,errors,showDate,showTime,setUser
   }
 }
 

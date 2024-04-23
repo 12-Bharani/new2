@@ -4,7 +4,7 @@ margin-bottom: 14%;
 }
 .form{
     width: 350px!important;
-    height: 450px;
+    height: 500px;
     border-radius: 50px!important;
 
     background:rgba(255, 255, 255, 0.2);
@@ -15,7 +15,50 @@ margin-bottom: 14%;
 .form:hover{
     box-shadow:0px 0px 20px 5px #2b2b2b;
 }
+    
+body{
 
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    background-repeat: no-repeat;
+    /* background-image: url(./Images/bg9.jpg); */
+    
+    animation: animation 25s ease-in-out forwards; 
+    
+    animation-iteration-count: infinite;
+    
+    
+    
+       
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    @keyframes animation {
+    
+        0%{
+            background-image: url(./Images/ng3.jpg);
+        }
+        50%{
+            background-image: url(./Images/bg4.jpg);
+        }
+        100%{
+            background-image: url(./Images/bg5.jpg);
+           
+        }
+      
+    
+      
+    }
 
 
 

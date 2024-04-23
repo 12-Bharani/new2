@@ -5,8 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import img1 from "./Images/profile1.jpg"
 import img2 from "./Images/profile2.jpg"
 import img3 from "./Images/profile3.jpg"
-import img4 from "./Images/profile4.jpg"
-import img5 from "./Images/profile5.jpg"
+
+import  imag1  from "./Images/posts/img1.heic";
 
 import './Home.css'
 import UseHooks from '../Hooks/UseHooks';
@@ -224,7 +224,7 @@ const Home = () => {
                             <span className='text-white ms-2 d-none d-xl-block'>Create</span>      
                         </button>
                         <button className="btn   d-flex  align-items-center mb-1 mt-1" onClick={profile}>
-                        <img src={img1} alt="" className='rounded-circle  border border-white  ' id='sidenav-img'/>
+                        <img src={imag1} alt="" className='rounded-circle  border border-white  ' id='sidenav-img'/>
                             <span className='text ms-2  d-none d-xl-block fs-6 text-white'>Profile</span>      
                         </button>
                         
@@ -287,8 +287,8 @@ const Home = () => {
                    <div className="row pt-0  d-flex justify-content-center   ">
                         <div className="col d-flex justify-content-start  p-1  " id='story'>
                             <div className="story-image d-flex flex-column justify-content-center align-items-center">
-                            <img src={img1} alt="" className='rounded-circle border p-1  ms-2  '  data-bs-toggle="modal" href="#profileimage1" />
-                            <span className='text text-white '>{user.name}</span>
+                            <img src={imag1} alt="" className='rounded-circle border p-1  ms-2  '  data-bs-toggle="modal" href="#profileimage1" />
+                            <span className='text text-white d-flex align-items-center'>Your Story<i class="bi bi-plus ms-1 fs-6"></i></span>
 
                             </div>
                             <div className="story-image d-flex flex-column justify-content-center align-items-center">
@@ -316,7 +316,7 @@ const Home = () => {
                     <div className="col-md-7   p-1" id='post1' >
                         <div className="row   d-flex align-items-center" id="post-title">
                             <div className="col-sm-10 col-md-10 col-xl-10 col-xxl-10 col-lg-10 col-10 d-flex">
-                                <img src={img1} alt="" className='rounded-circle border border-white '  />
+                                <img src={imag1} alt="" className='rounded-circle border border-white '  />
                                 <div >
                                     <p className='text-white fs-5 fw-medium ms-2' >{user.id}<span className='text-white opacity-75 fs-6 fw-medium'> . {timeAgo}</span></p>
                                 </div>
@@ -329,7 +329,7 @@ const Home = () => {
 
                         </div>
                         <div className="row p-1" id='post-content'>
-                            <img src={img1} alt="" className='w-100 h-100'/>
+                            <img src={imag1} alt="" className='w-100 h-100'/>
                             
                         </div>
                         <div className="row" id='post-bottom1'>
@@ -591,7 +591,7 @@ const Home = () => {
                         </button>
                         
                         <button className="btn border-0   " onClick={profile}>
-                        <img src={img1} alt="" className='rounded-circle   ' id='sidenav-img'/>
+                        <img src={imag1} alt="" className='rounded-circle   ' id='sidenav-img'/>
                                 
                         </button>
                        
@@ -607,7 +607,7 @@ const Home = () => {
                     <div className="container">
                         <div className="row d-flex justify-content-center align-items-center   m-0 ">
                             <div className="col-md-8 d-flex justify-content-start ">
-                                <img src={img1} alt="" className='img rounded-circle m-1'/>
+                                <img src={imag1} alt="" className='img rounded-circle m-1'/>
                                <span className='sugg-text m-2 '>
                                   <p className='text text-white d-flex flex-column fw-medium'>Phenix bharani 
                                     <span className="fw-medium text-white opacity-50">
@@ -713,6 +713,55 @@ const Home = () => {
 
                 </div>
             </div>
+
+<div className="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <br />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+            <hr />
+            <hr />
+            <hr />
             <ViewPage 
              data1={data1}
              setData1={setData1}
