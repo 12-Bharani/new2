@@ -1,6 +1,7 @@
 import React from 'react'
 import {
   BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Navigate,
@@ -32,7 +33,7 @@ const App = () => {
 
        <>
       
-      <Router>
+      <HashRouter>
           <Routes>
                 <Route
                    exact
@@ -63,7 +64,7 @@ const App = () => {
                 
                 
           </Routes>
-      </Router>
+      </HashRouter>
   </>
  
 
