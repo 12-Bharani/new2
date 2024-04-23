@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle"
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
+import imag1 from './Components/Images/posts/img10.jpg'
 
 
 
@@ -27,6 +27,7 @@ const App = () => {
  
   return (
     <div >
+      <img src={imag1} alt="" className='w-100 ' />
      
 
        <>
