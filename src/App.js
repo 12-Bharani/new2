@@ -28,7 +28,7 @@ const App = () => {
  
   return (
     <div >
-      <img src={imag1} alt="" className='w-100 ' />
+      
      
 
        <>
