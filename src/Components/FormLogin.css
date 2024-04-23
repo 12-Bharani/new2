@@ -1,0 +1,80 @@
+.container{
+min-height: 100vh;
+margin-bottom: 14%;
+}
+.form{
+    width: 350px!important;
+    height: 450px;
+    border-radius: 50px!important;
+
+    background:rgba(255, 255, 255, 0.2);
+    
+   
+}
+
+.form:hover{
+    box-shadow:0px 0px 20px 5px #2b2b2b;
+}
+    
+body{
+
+background: url(./Images/bg3.jpg);
+background-position: center;
+background-size: cover;
+
+
+
+   
+   
+}
+
+
+
+
+
+
+
+
+
+.input-group {
+    width: 80%;
+    align-items: center;
+    margin: 5%;
+  
+}
+.input-group input{
+ 
+    border-bottom: 1px solid white!important;
+    outline: none!important;
+
+}
+
+.input-group span{
+    border-bottom:1px solid white!important;
+}
+.input-group input::placeholder{
+    color: white;
+ 
+    font-size: 18px;
+}
+ .input-group label{
+   width: 100px;
+  
+   
+   
+    
+ }
+ .btn{
+    border: 1px solid rgb(130, 152, 152);
+    background:transparent;
+    transition: .8s;
+    height: 40px!important;
+    padding: 0!important;
+ }
+ .container .btn:hover{
+    color: #00eeff;
+    text-shadow: 0 0 5px #00eeff;
+    box-shadow:0px 0px 20px 5px #00eeff;
+    
+    ;
+ }

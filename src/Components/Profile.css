@@ -1,0 +1,213 @@
+
+#btn{
+padding: 0 5px!important;
+}
+
+.highlights img{
+    width:90px !important;
+    height:90px !important;
+    margin: 0 25px;
+  
+}
+
+#profile-main-content i{
+    font-size: 12px;
+   
+}
+#post .img{
+    max-width: 100% !important;
+    
+}
+#profile-main-content .row:nth-child(2) .col-md-4 img{
+    width: 180px;
+    height: 180px;
+
+}
+#profile-title button{
+    position: relative;
+
+}
+#profile-title button::after{
+    transition: all 0.5s;
+    opacity: 0;
+    content: '';
+    height: 3px;
+  
+    width: 100%;
+    background: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#profile-title button:hover::after{
+    opacity: 1;
+   
+
+}
+
+@media (min-width:1200px){
+    #Left-content .row button{
+        align-items: center!important;
+        justify-content: start!important;
+        border-top-right-radius:30px !important;
+        border-bottom-left-radius: 30px!important;
+    }
+
+
+}
+@media (max-width:1200px){
+    .left-top-image button{
+
+        align-items: center!important;
+       border: none!important;
+           
+       }
+}
+.left-top-image button{
+
+    align-items: center!important;
+   border: none;
+   justify-content: center!important;
+       
+   }
+ @media (max-width:992px){
+    #editProfile .modal{
+        width: 100%!important;
+       
+    }
+
+    #editProfile .row .right{
+        margin: 0!important;
+        width: 100%!important;
+        
+       }
+ }
+
+
+
+
+@media (max-width:768px){
+    
+    #profile-main-content{
+        margin: 0;
+        padding: 0;
+    }
+    #profile-heading .col .row .col{
+       
+        align-items: start!important;
+        flex-direction: column !important;
+        
+    }
+    #profile-heading{
+        margin-bottom: 0!important;
+    }
+   
+    #profile-main-content{
+        margin-top: 20px;
+    }
+    
+    
+    .highlights img{
+        width:60px !important;
+        height:60px !important;
+        
+
+
+        margin: 10px 0px;
+
+    }
+    #profile-main-content .row:nth-child(4) .col{
+        justify-content: start!important;
+        padding-left: 0!important;
+
+    }
+    #profile-heading-image img{
+        width: 100px!important;
+        height: 100px!important;
+    }
+
+    
+}
+@media (max-width:576px){
+  
+    #profile-heading-image img{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+       
+        
+       
+       
+
+    }
+    #profile-main-content .row:nth-child(3){
+        margin-top: 0px!important;
+       
+
+    }
+    #profile-main-content{
+        margin: 0;
+        padding: 0;
+    }
+    #profile-heading .col .row p{
+        margin-left: 10px!important;
+    }
+    #profile-heading .col .row .col{
+        padding-left: 0%;
+        align-items: start!important;
+        flex-direction: column !important;
+        padding-left: 3%;
+
+    }
+    #top-head-bottom p{
+        margin: 0;
+        font-size: 13px!important;
+
+    }
+    
+
+   
+  
+
+}
+@media (max-width:400px){
+ 
+#pp{
+    flex-direction: column!important;
+    align-items: center;
+    justify-content: center!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+#pp button{
+    width: 150px!important;
+    margin: 5px 0!important;
+    padding: 5px!important;
+   
+}
+}
+
+@media (max-width:300px){
+    .container-fluid{
+        width: 100%!important;
+        padding: 10px!important;
+    }
+    #pp{
+        flex-direction: column!important;
+        align-items: center;
+        justify-content: center!important;
+        margin: 0!important;
+        padding: 0!important;
+    }
+    #pp button{
+        width: 120px!important;
+        margin:0!important;
+       
+        font-size: 15px!important;
+       
+    }
+  
+
+}
+
