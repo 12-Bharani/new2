@@ -197,14 +197,17 @@ const [preload, setpreload] = useState(true)
          {preload && (
              <div className="container-fluid m-0" id='preloader'>
              <div className="loader  col-12 d-flex justify-content-center align-items-center  ">
+             <div className="box   d-flex justify-content-center align-items-center">
+          <div className="box1 d-flex justify-content-center align-items-center">
+          <div className="spinner1 rounded-circle ">
+              <div className="spinner2 rounded-circle">
+          </div>
                  
-                 <div className="spinner rounded-circle ">
-                    <div className="spinner2 rounded-circle">
-                       
 
-                    </div>
-                         
-                 </div>
+              </div>
+          </div>
+                   
+           </div>
                  
              </div>
 
