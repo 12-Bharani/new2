@@ -5,6 +5,17 @@
 .modal-body .row .col-lg-6,.col-lg-5{
     height: 500px!important;
 }
+.video{
+  height: 600px!important;
+ object-fit: cover;
+  display: flex;
+  justify-content: stretch;
+  
+}
+#profilePage1,#profilePage2,#profilePage3{
+  height:100vh !important;
+  margin: 0 auto!important ;
+}
 
 @keyframes slideRight {
     0% {

@@ -17,6 +17,7 @@
 }
 
 
+
 #sidenav-img{
     width: 12px;
     height: 12px;
@@ -121,6 +122,66 @@
     width: 40%;
     height: 40%;
 }
+
+
+.loader{
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+background:black;
+    
+}
+
+.spinner{
+    border: 10px solid white;
+    width: 120px;
+    height: 120px;
+    border-top: 10px solid deeppink ;
+    border-bottom: 10px solid orange ;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    animation: spin 1s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.spinner2{
+    border: 10px solid white;
+    width: 90px;
+  height: 90px;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+    border-top: 10px solid deeppink ;
+    border-bottom: 10px solid orange ;
+    animation: spin 0.5s linear infinite reverse;
+padding: 2px;
+    
+}
+
+
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width:1200px){

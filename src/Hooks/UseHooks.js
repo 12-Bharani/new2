@@ -119,8 +119,9 @@ const validateLogin=(value)=>{
 
     navigate('/Home')
   }
-  const signup=()=>{
-    navigate('/FormSignup')
+  const playVideo=(e)=>{
+  
+
   }
  
 
@@ -150,7 +151,7 @@ const validateLogin=(value)=>{
 
 
   return{
-    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,signup,value,errors,showDate,showTime,setUser
+    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,value,errors,showDate,showTime,setUser,playVideo
   }
 }
 

@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState }  from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import ReactPlayer from "react-player";
+
 
 import img2 from "./Images/profile2.jpg"
 import img3 from "./Images/profile3.jpg"
+import v1 from './Videos/v1.mp4'
 
 import  imag1  from "./Images/posts/img1.heic";
 import "./Profile.css"
@@ -11,7 +14,7 @@ import './ViewPage.css'
 import UseHooks from '../Hooks/UseHooks';
 
 const ViewPage = (props) => {
-  const {user,friend1,friend2,showDate,showTime}=UseHooks();
+  const {user,friend1,friend2,showDate,showTime,playVideo}=UseHooks();
   
 const [file, setFile] = useState()
 const [likeValue2, setlikeValue2] = useState(5)
@@ -46,7 +49,23 @@ const handle3=()=>{
  
 
 }
+const handleMouseEnter = (e) => {
+  const vid = e.target
+  vid.muted = false
+  vid.play()
+}
 
+const handleMouseLeave = (e) => {
+  const vid = e.target
+  vid.muted = true
+  vid.currentTime = 0
+  vid.pause()
+}
+const stopPlaying=(e)=>{
+  const vid = e.target
+vid.playing=false
+
+}
 
 
 
@@ -55,14 +74,15 @@ const handle3=()=>{
   return (
     <div>
         <div className="container border  border-dark">
+         
                      
                         <div class="modal  fade" id="profileimage1" >
                           <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
+                            <div class="modal-content bg-black">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class="btn btn-danger  border border-light mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                                <button type="button" class="btn btn-dange border-0 mb-2 " data-bs-dismiss="modal" aria-label="Close" onClick={stopPlaying}><i class="bi bi-x-square text-white fs-4"></i></button>
                               </div>
-                              <img src={imag1} alt=""className=''/>
+                                  <img src={imag1} alt="" />
                               
                             </div>
                           </div>
@@ -70,9 +90,9 @@ const handle3=()=>{
 
                         <div class="modal fade " id="profileimage2" >
                           <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
+                            <div class="modal-content bg-black">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class="btn btn-danger  border border-light mb-2  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                                <button type="button" class="btn btn-danger border-0 mb-2  " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                               </div>
                               <img src={img3} alt=""className='w-100'/>
                               
@@ -82,9 +102,9 @@ const handle3=()=>{
 
                         <div class="modal fade " id="profileimage3" >
                           <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
+                            <div class="modal-content bg-black">
                               <div className="d-flex justify-content-end">
-                                <button type="button" class="btn btn-danger  border border-light  mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
+                                <button type="button" class="btn btn-danger  border-0  mb-2 " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square text-dark fs-3"></i></button>
                               </div>
                               <img src={img2} alt=""className='w-100'/>
                               

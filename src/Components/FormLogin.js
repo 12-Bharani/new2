@@ -4,8 +4,10 @@ import UseHooks from '../Hooks/UseHooks';
 import { useNavigate } from 'react-router-dom'
 
 const FormLogin = () => {
-  const {handleSubmit,handleChange,handleSubmit1,signup,errors,value}=UseHooks();
+  const {handleSubmit,handleChange,handleSubmit1,errors,value}=UseHooks();
+  const navigate1=useNavigate()
 
+  
   return (
     <div className='container d-flex justify-content-center align-items-center'>
         <div className="form d-flex flex-column  align-items-center border-bottom-secondary ">
