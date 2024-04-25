@@ -123,10 +123,14 @@
     height: 40%;
 }
 
+#preloader{
+    background: #000;
+}
 
 .loader{
 
-    position: absolute;
+    position: relative;
+
     width: 100%;
     height: 100vh;
 background:black;

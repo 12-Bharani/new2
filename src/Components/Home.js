@@ -195,7 +195,7 @@ const [preload, setpreload] = useState(true)
   return (
     <div className=''>
          {preload && (
-             <div className="container-fluid" id='preloader'>
+             <div className="container-fluid m-0" id='preloader'>
              <div className="loader  col-12 d-flex justify-content-center align-items-center  ">
                  
                  <div className="spinner rounded-circle ">
