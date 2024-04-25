@@ -88,11 +88,13 @@ const validateLogin=(value)=>{
   if(!value.password.trim()){
       errors.password="password required"
   }
-  else if(value.password.length < 6){
-      errors.password="Password need to be 6 character or more"
+  else if(value.password.length < 6 ){
+      errors.password="Password needs to be more than 6 character"
 
 
   }
+ 
+ 
  
   else{
     navigate('/Home')
@@ -119,10 +121,7 @@ const validateLogin=(value)=>{
 
     navigate('/Home')
   }
-  const playVideo=(e)=>{
-  
 
-  }
  
 
 
@@ -151,7 +150,7 @@ const validateLogin=(value)=>{
 
 
   return{
-    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,value,errors,showDate,showTime,setUser,playVideo
+    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,value,errors,showDate,showTime,setUser
   }
 }
 

@@ -80,33 +80,16 @@ const ProfilePage = () => {
                  <div className="row ">
                      <div className="col d-flex flex-column mb-1 ">
                      <button className="btn  d-flex  mb-1 mt-1 " onClick={home}>
-                         <i className="bi bi-house text-white   "></i>
-                         <span className='text  text-white ms-2 d-none d-xl-block'>home</span>      
-                     </button>
+                          <i className="bi bi-house  text-white "></i>
+                          <span className='text-white ms-2 d-none d-xl-block' >Home</span>      
+                      </button>
                      <button className="btn   d-flex  mb-1 mt-1">
-                         <i className="bi bi-search text-white  "></i>
-                         <span className='text  text-white ms-2 d-none d-xl-block' >Search</span>      
-                     </button>
-                     <button className="btn   d-flex  mb-1 mt-1">
-                     <i className="bi bi-compass  text-white  "></i>
-                         <span className='text text-white  ms-2 d-none d-xl-block'>Explore</span>      
-                     </button>
-                     <button className="btn d-flex  mb-1 mt-1">
-                     <i className="bi bi-film  text-white "></i>
-                         <span className='text text-white  ms-2 d-none d-xl-block'>Reels</span>      
-                     </button>
-                     <button className="btn   d-flex mb-1 mt-1 ">
-                         <i className="bi bi-chat-left-dots  text-white "></i>
-                         <span className='text  text-white ms-2 d-none d-xl-block'>Messages</span>      
-                     </button>
-                     <button className="btn d-flex mb-1 mt-1 ">
-                         <i className="bi bi-heart  text-white "></i>
-                         <span className='text  text-white ms-2 d-none d-xl-block'>Notification</span>      
-                     </button>
-                     <button className="btn   d-flex  mb-1 mt-1">
-                         <i className="bi bi-plus-square text-white "></i>
-                         <span className='text  text-white ms-2 d-none d-xl-block'>Create</span>      
-                     </button>
+                          <i className="bi bi-search text-white "></i>
+                          <span className='text-white ms-2 d-none d-xl-block' >Search</span>      
+                      </button>
+                   
+                      
+                    
                      <button className="btn   d-flex align-items-center mb-1 mt-1" onClick={profile}>
                      <img src={changeImage} alt="" className='rounded-circle    ' id='sidenav-img'/>
                          <span className='text text-white  ms-2 fs-6 d-none d-xl-block'>Profile</span>      
@@ -403,28 +386,25 @@ const ProfilePage = () => {
              </div>
              <div className="row d-xs-block d-md-none position-fixed  bottom-0 bg-black justify-content-center w-100  border-top w-100">
                      <div className="col d-flex flex-row justify-content-between align-items-centrer">
-                     <button className="btn  border-0  mb-1  "  onClick={home}>
-                         <i className="bi bi-house text-white  fs-4 "></i>
-                             
-                     </button>
-                     <button className="btn  border-0   mb-1 ">
-                         <i className="bi bi-search text-white  fs-4 "></i>
-                             
-                     </button>
-                    
-                     <button className="btn  border-0 mb-1 ">
-                     <i className="bi bi-film  text-white fs-4"></i>
+                     <button className="btn border-0   mb-1  ms-3 " onClick={home}>
+                          <i className="bi bi-house text-white  fs-4 "></i>
                               
-                     </button>
-                     <button className="btn  border-0 mb-1  ">
-                         <i className="bi bi-chat-left-dots text-white  fs-4 "></i>
-                             
-                     </button>
+                      </button>
+                      
                      
-                     <button className="btn  border-0 " onClick={profile}>
-                     <img src={changeImage} alt="" className='rounded-circle border border-white   ' id='sidenav-img'/>
-                             
-                     </button>
+                      
+                     
+                      
+                      <button className="btn border-0  ms-3  " onClick={profile}>
+                      <img src={imag1} alt="" className='rounded-circle   ' id='sidenav-img'/>
+                              
+                      </button>
+
+                      
+                      <button className="btn border-0  mb-1 ms-3 ">
+                      <i className="bi bi-film  text-white fs-4"></i>
+                               
+                      </button>
                     
                      
                      

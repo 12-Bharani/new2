@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import logo from './Images/logo.png'
 import logo1 from './Images/logo11.png'
+import logo2 from './Images/logoicon.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import img1 from "./Images/profile1.jpg"
 import img2 from "./Images/profile2.jpg"
@@ -185,7 +186,7 @@ const [preload, setpreload] = useState(true)
         setTimeout(() => {
             setpreload(!preload)
             setshow(!show)
-        }, 2000);
+        }, 3500);
     }
     fetch();
    },[])
@@ -196,11 +197,23 @@ const [preload, setpreload] = useState(true)
     <div className=''>
          {preload && (
              <div className="container-fluid m-0" id='preloader'>
-             <div className="loader  col-12 d-flex justify-content-center align-items-center  ">
+             <div className="loader  col-12 d-flex justify-content-center align-items-center  flex-column  ">
+
+               <div className="loading mb-3 ">
+
+               <span className=' fs-5  ms-2 fw-medium'>Welcome</span>
+                <span className=' fs-5  ms-2 fw-medium'>To</span>
+                <span className=' fs-5  ms-2 fw-medium'>My</span>
+                <span className=' fs-5  ms-2 fw-medium'>Instagram</span>
+                <span className=' fs-5  ms-2 fw-medium'>Page</span>
+               </div>
              <div className="box   d-flex justify-content-center align-items-center">
           <div className="box1 d-flex justify-content-center align-items-center">
           <div className="spinner1 rounded-circle ">
-              <div className="spinner2 rounded-circle">
+              <div className="spinner2 rounded-circle d-flex justify-content-center align-items-center">
+                <div className="d-flex justify-content-center align-items-center">
+                    <img src={logo2} alt="" className='w-50 h-50'/>
+                </div>
           </div>
                  
 
@@ -247,10 +260,14 @@ const [preload, setpreload] = useState(true)
                           <span className='text-white ms-2 d-none d-xl-block' >Search</span>      
                       </button>
     
-                      <button className="btn   d-flex  align-items-center mb-1 mt-1" onClick={profile}>
+                      <div className="button-box">
+                        <div className="button-box1">
+                        <button className="btn   d-flex  align-items-center mb-1 mt-1" onClick={profile}>
                       <img src={imag1} alt="" className='rounded-circle  border border-white  ' id='sidenav-img'/>
                           <span className='text ms-2  d-none d-xl-block fs-6 text-white'>Profile</span>      
                       </button>
+                        </div>
+                      </div>
                       
                       
 
@@ -600,23 +617,20 @@ const [preload, setpreload] = useState(true)
                           <i className="bi bi-house text-white  fs-4 "></i>
                               
                       </button>
-                      <button className="btn  border-0   mb-1 ">
-                          <i className="bi bi-search text-white  fs-4 "></i>
-                              
-                      </button>
+                      
                      
-                      <button className="btn border-0  mb-1 ">
-                      <i className="bi bi-film  text-white fs-4"></i>
-                               
-                      </button>
-                      <button className="btn border-0  mb-1  ">
-                          <i className="bi bi-chat-left-dots text-white  fs-4 "></i>
-                              
-                      </button>
+                      
+                     
                       
                       <button className="btn border-0   " onClick={profile}>
                       <img src={imag1} alt="" className='rounded-circle   ' id='sidenav-img'/>
                               
+                      </button>
+
+                      
+                      <button className="btn border-0  mb-1 ">
+                      <i className="bi bi-film  text-white fs-4"></i>
+                               
                       </button>
                      
                       
