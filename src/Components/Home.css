@@ -167,7 +167,7 @@ padding: 2px;
 }
 #sidenav-img{
     border: 1px solid cyan;
-    animation: zoom 3s infinite ease forwards;
+    animation: zoom 3s infinite ease-in-out;
 }
 
 
