@@ -62,7 +62,7 @@ const [musiclist, setMusiclist] = useState([
         title:"Katchi sera",
         artist:"Sai Abhyankkar",
          album:"Indie",
-       img:"https://source.boomplaymusic.com/group10/M00/02/09/3cb358d3af7b40368fed2f66193f70f0_464_464.jpg",
+       img:"https://c.saavncdn.com/118/Katchi-Sera-from-Think-Indie-Tamil-2024-20240122043105-500x500.jpg",
         id:"6",
     },
     {

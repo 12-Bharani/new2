@@ -105,9 +105,9 @@ const vijay=()=>{
                                     <img src={item.img} alt={item.title} className='audio-img d-flex flex-column rounded' />
                                   
                                     <p className='text m-0 p-0'>Title: <span>{item.title}</span></p>
-                                    <p className='text m-0 p-0'>Artist: <span>{item.artist}</span></p>
-                                    <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"   id='img1'onClick={()=>{setindex(index)}}>
-                                                play
+                                    <p className='text m-0 p-0 d-none d-md-block'>Artist: <span>{item.artist}</span></p>
+                                    <button className="p btn btn-info w-100 h-25" data-bs-toggle="modal" data-bs-target="#player"   id='img1'onClick={()=>{setindex(index)}}>
+                                    <i class="bi bi-play-fill"></i>
                                              </button>
                                     
                                  
