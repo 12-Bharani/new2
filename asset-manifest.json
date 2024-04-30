@@ -1,9 +1,19 @@
 {
   "files": {
-    "main.css": "/new2/static/css/main.c4de805f.css",
-    "main.js": "/new2/static/js/main.ae136a12.js",
+    "main.css": "/new2/static/css/main.982068c2.css",
+    "main.js": "/new2/static/js/main.747b4a6b.js",
     "static/js/453.2008244e.chunk.js": "/new2/static/js/453.2008244e.chunk.js",
     "static/media/v1.mp4": "/new2/static/media/v1.8061c1bb736b429a6186.mp4",
+    "static/media/Vaadi-Vaadi.mp3": "/new2/static/media/Vaadi-Vaadi.1dbea4bb8c4302c11b5a.mp3",
+    "static/media/Ranjithame.mp3": "/new2/static/media/Ranjithame.8c81ae3db5ad1cb46ee2.mp3",
+    "static/media/Kokkarakko.mp3": "/new2/static/media/Kokkarakko.0e16fb1c6b10d6c61473.mp3",
+    "static/media/Oxygen.mp3": "/new2/static/media/Oxygen.ef668ceee90f50bda95c.mp3",
+    "static/media/Arjunar-Villu.mp3": "/new2/static/media/Arjunar-Villu.515c34e7695ef41ca338.mp3",
+    "static/media/Meherezylaa.mp3": "/new2/static/media/Meherezylaa.95d2cec9efa5410a3057.mp3",
+    "static/media/Naa-Ready.mp3": "/new2/static/media/Naa-Ready.41c6f50829d034b6e8f4.mp3",
+    "static/media/Otraikannale.mp3": "/new2/static/media/Otraikannale.8225f010a6bd30629fcc.mp3",
+    "static/media/Katchi Sera.mp3": "/new2/static/media/Katchi Sera.0c6d35ff1f4a512e97bf.mp3",
+    "static/media/Celebration-Of-Varisu.mp3": "/new2/static/media/Celebration-Of-Varisu.cc59e1b6f90a5d9f5221.mp3",
     "static/media/profile2.jpg": "/new2/static/media/profile2.5d48c87a3c20823160f9.jpg",
     "static/media/profile3.jpg": "/new2/static/media/profile3.c9fdfda70d2da0b122f2.jpg",
     "static/media/img14.jpg": "/new2/static/media/img14.e436a6d365f7fe2a163a.jpg",
@@ -24,12 +34,12 @@
     "static/media/logo11.png": "/new2/static/media/logo11.40b372dcace690d45a49.png",
     "static/media/logo.png": "/new2/static/media/logo.88428997205e3acc2f38.png",
     "index.html": "/new2/index.html",
-    "main.c4de805f.css.map": "/new2/static/css/main.c4de805f.css.map",
-    "main.ae136a12.js.map": "/new2/static/js/main.ae136a12.js.map",
+    "main.982068c2.css.map": "/new2/static/css/main.982068c2.css.map",
+    "main.747b4a6b.js.map": "/new2/static/js/main.747b4a6b.js.map",
     "453.2008244e.chunk.js.map": "/new2/static/js/453.2008244e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4de805f.css",
-    "static/js/main.ae136a12.js"
+    "static/css/main.982068c2.css",
+    "static/js/main.747b4a6b.js"
   ]
 }
