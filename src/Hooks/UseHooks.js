@@ -121,6 +121,10 @@ const validateLogin=(value)=>{
 
     navigate('/Home')
   }
+  const musicPlayer=()=>{
+
+    navigate('/Musicplayer')
+  }
 
  
 
@@ -150,7 +154,7 @@ const validateLogin=(value)=>{
 
 
   return{
-    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,value,errors,showDate,showTime,setUser
+    profile,user,friend1,friend2,home,handleSubmit,handleSubmit1,handleChange,value,errors,showDate,showTime,setUser,musicPlayer
   }
 }
 

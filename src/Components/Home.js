@@ -19,7 +19,7 @@ import ViewPage from './ViewPage';
 
 const Home = () => {
    
-    const {profile,user,friend1,friend2,timer,follow,playVideo}=UseHooks();
+    const {profile,user,friend1,friend2,timer,follow,playVideo,musicPlayer}=UseHooks();
    let post1,post2
    const [likeValue1, setlikeValue1] = useState(12)
    const [likeValue2, setlikeValue2] = useState(5)
@@ -255,9 +255,9 @@ const [preload, setpreload] = useState(true)
                           <i className="bi bi-house  text-white "></i>
                           <span className='text-white ms-2 d-none d-xl-block' onClick={Home}>Home</span>      
                       </button>
-                      <button className="btn   d-flex  mb-1 mt-1">
-                          <i className="bi bi-search text-white "></i>
-                          <span className='text-white ms-2 d-none d-xl-block' >Search</span>      
+                      <button className="btn   d-flex  mb-1 mt-1" onClick={musicPlayer}>
+                      <i class="bi bi-music-note-beamed text-white"></i>
+                          <span className='text-white ms-2 d-none d-xl-block' >Music Player</span>      
                       </button>
     
                       <div className="button-box">
@@ -628,9 +628,9 @@ const [preload, setpreload] = useState(true)
                       </button>
 
                       
-                      <button className="btn border-0  mb-1 ">
-                      <i className="bi bi-film  text-white fs-4"></i>
-                               
+                      <button className="btn border-0" onClick={musicPlayer}>
+                      <i class="bi bi-music-note-beamed text-white"></i>
+                          
                       </button>
                      
                       

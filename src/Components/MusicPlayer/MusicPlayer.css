@@ -1,0 +1,12 @@
+#musicAppContent{
+    background: whitesmoke!important;
+    height: 100vh!important;
+   
+}
+#audio-main{
+    background: white!important;
+}
+.form-input{
+    width: 200px;
+    height: 40px;
+}

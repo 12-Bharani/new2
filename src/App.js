@@ -21,6 +21,8 @@ import Home from "./Components/Home"
 import FormLogin from './Components/FormLogin';
 
 import ProfilePage from './Components/ProfilePage';
+import MusicPlayer from './Components/MusicPlayer/MusicPlayer'
+import MusicData from './Components/MusicPlayer/MusicData';
 
 
 
@@ -58,6 +60,10 @@ const App = () => {
                <Route
                     path='/FormLogin'
                     element={<FormLogin />}
+                />
+                <Route
+                    path='/MusicPlayer'
+                    element={<MusicPlayer />}
                 />
                
                
