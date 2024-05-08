@@ -38,53 +38,11 @@ const vijay=()=>{
          <div className="row d-flex  ">
             <div className="col-3 d-none btn-group-vertical h-100">
                       <button className={`y btn btn-white d-flex  border-bottom-0 w-100 justify-content-center align-items-center dropdown-toggle `}data-bs-toggle="dropdown" aria-expanded="false "  >
-                      <i class="bi bi-file-earmark-music fs-3"></i>
-                          <span className='text  ms-2 d-none d-xl-block  fs-6' >Songs</span>      
+                      
                       </button>
 
 
-                      <ul class="dropdown-menu">
-                                           <li>
-                                           
-                                             {/* <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"   id='img1'onClick={()=>{setindex(0)}}>
-                                                Ajunar villu
-                                             </button>
-                                           
-                                           </li>
-                                           <li>
-                                             <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"  id='img2'  onClick={()=>{setindex(1)}}>
-                                                Kokkarakko
-                                                </button>
-                                           </li>
-                                           <li>
-                                             <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"  id='img3' onClick={()=>{setindex(2)}}>
-                                            Naa ready
-                                             </button>
-                                           </li>
-                                           
-                                           <li>
-                                             <button className="p btn btn-info w-100"data-bs-toggle="modal" data-bs-target="#player"   id='img4'   onClick={()=>{setindex(3)}}>
-                                                Vaadi vaadi
-                                             </button>
-                                           </li>
-                                           <li>
-                                             <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"  id='img5'   onClick={()=>{setindex(4)}}>
-                                                celebration
-                                             </button>
-                                           </li>
-                                           <li>
-                                             <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"  id='img6'  onClick={()=>{setindex(5)}}>
-                                                
-                                                Ranjithame
-                                             </button>
-                                           </li>
-                                           <li>
-                                             <button className="p btn btn-info w-100" data-bs-toggle="modal" data-bs-target="#player"  id='img7'  onClick={()=>{setindex(6)}}>
-                                                
-                                                Image7
-                                             </button> */}
-                                           </li>
-                                         </ul>
+                     
                     
                      
 

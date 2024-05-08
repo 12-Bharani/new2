@@ -19,7 +19,7 @@ import ViewPage from './ViewPage';
 
 const Home = () => {
    
-    const {profile,user,friend1,friend2,timer,follow,playVideo,musicPlayer}=UseHooks();
+    const {profile,user,friend1,friend2,timer,follow,playVideo,musicPlayer,home}=UseHooks();
    let post1,post2
    const [likeValue1, setlikeValue1] = useState(12)
    const [likeValue2, setlikeValue2] = useState(5)
@@ -253,7 +253,7 @@ const [preload, setpreload] = useState(true)
                       <div className="col d-flex flex-column mb-1 ">
                       <button className="btn  d-flex  mb-1 mt-1 ">
                           <i className="bi bi-house  text-white "></i>
-                          <span className='text-white ms-2 d-none d-xl-block' onClick={Home}>Home</span>      
+                          <span className='text-white ms-2 d-none d-xl-block' onClick={home}>Home</span>      
                       </button>
                       <button className="btn   d-flex  mb-1 mt-1" onClick={musicPlayer}>
                       <i class="bi bi-music-note-beamed text-white"></i>
